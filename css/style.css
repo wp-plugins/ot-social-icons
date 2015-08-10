@@ -1,0 +1,74 @@
+
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #eff0f1;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto 3em auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0.5em 0;
+  float: left;
+  clear: both;
+}
+.row i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+.row:first-child {
+  background: #f8f8f8;
+  padding: 0.5em 10px;
+  border-radius: 8px;
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.row:first-child i {
+  border-right: 1px solid #e8e8e8;
+  border-left: 1px solid #fff;
+  padding: 0.5em 1em;
+  margin: 0;
+  text-shadow: 1px 1px 0 white;
+}
+.row:first-child i:hover {
+  color: #34495e !important;
+}
+.row:first-child a:nth-child(1) {
+  color: #3b5998;
+  border-left: none;
+}
+.row:first-child a:nth-child(2) {
+  color: #00a0d1;
+}
+.row:first-child a:nth-child(3) {
+  color: #db4a39;
+}
+.row:first-child a:nth-child(4) {
+  color: #c8232c;
+}
+.row:first-child a:nth-child(5) {
+  color: #ea4c89;
+  border-right: none;
+}
+.row:first-child a:nth-child(6) {
+  color: #517FA4;
+  border-right: none;
+}
+.row:first-child a:nth-child(7) {
+  color: #007BB6;
+  border-right: none;
+}
