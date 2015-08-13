@@ -6,7 +6,7 @@ Description: You can show your social icons in your widget area.It is an awesome
 Tags: social icons, social icon, social widget icon, social, icons, icon, social widgets, facebook icon, twitter icon, google-plus icons
 Author: Jobayer
 Author URI: http://freelancer-jobayer.com
-version: 1.0
+version: 1.1
 License: GPLv2 or later
 Text Domain: ot_social_icons
 */
@@ -88,8 +88,8 @@ class ot_social extends WP_Widget{
 		extract($args);
 		extract($instance);
 		$otsocial = '
-					<div class="container">
-						 <div class="row">
+					<div class="ot_container">
+						 <div class="ot_row">
 							<a href="'.$facebook.'" target="_blank"><i class="fa fa-facebook"></i></a>
 							<a href="'.$twitter.'" target="_blank"><i class="fa fa-twitter"></i></a>
 							<a href="'.$googleplus.'" target="_blank"><i class="fa fa-google-plus"></i></a>
