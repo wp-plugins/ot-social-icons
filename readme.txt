@@ -1,5 +1,5 @@
 === Plugin Name ===
-Donate link: http://orangeit-info.com
+Donate link: http://orangeit-info.com/ot-social-icons-plugins/
 Tags: social icons, social icon, social widget icon, social, icons, icon, social widgets, facebook icon, twitter icon, google-plus icons
 Requires at least: 3.4
 Tested up to: 4.2.4
